@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --primary-color:#192a6b;
+    --secondary-color:#6868ac;
+    --secondary-color-opacity:#192a6b80;
+    --tertiary-color:#a9a9cf;
+    --extra-color:#ebebf4; 
+    --border-color:#ddd;
+    --font-family-roboto-slab: 'Roboto Slab', serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+    }
+    
+
+*,body{
+    padding: 0;
+    margin: 0;
+    font-family:var(--font-family-roboto);
+    font-size: 10px;
+} 
+
+
+h1,h2,h3,h4,h6{color: var(--primary-color);font-family: var(--font-family-roboto-slab)}
+a,button,thead th{font-family: var(--font-family-roboto-slab) !important; }
+a{color: var(--tertiary-color);}
+p,label,input,a{color: var(--tertiary-color);}
+
+/*----------button---------*/
+.solidBtn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    display: block;
+    border:2px solid var(--primary-color);
+      
+}
+.solidBtn:hover,.solidBackBtn:hover{
+    color: var(--primary-color);
+    background-color: transparent;
+}
+.lineBtn{
+    background-color: transparent;
+    color: var(--primary-color);
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    display: block;
+    border:2px solid var(--primary-color);
+      
+}
+.lineBtn:hover{
+    color: #fff;
+    background-color: var(--primary-color)
+}
+.backBtn{
+    background-color: var(--primary-color);
+    color: #fff !important;
+    padding: 8px 24px;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    margin-top: 0; 
+    border: 2px solid var(--primary-color);
+}
+/*---------button-*/
+.imageAvatar img {
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+.showSettingStyle {
+    position: absolute;
+    right: 0;
+    width: 24rem;
+    top: 80px;
+    background: #6868ac;
+  }
+  .showSettingStyle p {
+      margin-bottom: 2px;
+      color: #fff;
+      font-family: var(--font-family-roboto-slab);
+  }
+  .showSettingStyle .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 17px;
+  }
+.imageAvatar {
+    text-align: right;
+}
+.logo {
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  
+.solidBackBtn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 8px 28px;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+  
+
+  /* table style */
+  div#alldata_length label{
+    font-size: 1.3rem;
+}
+div#alldata_length label{
+    font-size: 1.3rem;
+}
+div#alldata_paginate a {
+    color: #000 !important;
+}
+    div#alldata_paginate a {
+        color: #000 !important;
+        font-size: 1.1rem;
+    }
+div#alldata_paginate >span > a.paginate_button.current,div#alldata_paginate >span > a:hover{
+    background: #192a6b;
+    border-color: #192a6b;
+    color: #fff !important;
+}
+table.dataTable tbody div#alldata_length {
+    font-size: 1.7rem !important;
+    color: #000;
+}
+.dataTables_wrapper .dataTables_length select, .dataTables_wrapper  div#alldata_length label, div#alldata_filter label,div#alldata_info  {
+    font-size: 1.3rem;
+    color: #000;
+    font-family: var(--font-family-roboto-slab);
+}
+ 
+div#alldata_paginate a {
+    border: 1px solid #a0a5c5bd;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody{
+    border-bottom: 1px solid var(--border-color) !important
+    }
+    .showAllDataTable .dataTables_scroll,.showAllDataTable div#alldata_length {
+        margin-bottom: 14px;
+    }
+    div#alldata_paginate a:hover {
+        color: #fff !important;
+        font-size: 1.1rem;
+        background: none;
+        background-color: var(--primary-color);
+    }
+   
+    .dataTables_scroll {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch
+    }
+   
+
+  
+    .dataTables_scrollHead,.dataTables_scrollBody{
+        /* overflow: visible !important; */
+      }
+      .dataTables_scroll{
+       /* overflow-y: clip;  */
+    }
+    div#alldata_paginate li.paginate_button.page-item.active a {
+        background-color: #192a6b;
+        color: #fff !important;
+    }
+    div#alldata_filter input:after {
+    }
+    div#alldata_filter input {
+        width: 183px;
+        height: 32px;
+        border-radius: 7px;
+        position: relative;
+    }
+    .tableColor tr.even td {
+        background: #d4d4e7 !important;
+        border: none;
+    }
+    .tableColor tr.odd td{border: none;}
